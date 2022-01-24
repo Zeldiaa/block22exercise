@@ -17,6 +17,10 @@ Tips: Testa gärna kort-kommandot Ctrl+O i IntelliJ, för att enkelt generera sk
 
 ## För mer utmaning
 
-Java implementerar så kallad single dispatch för metoder – dvs att valet av konkret metod-implementation vid runtime baseras enbart på det implicita argumentet. Hur kan vi i Java åstadkomma double eller multiple dispatch, alltså att valet av metod baseras på både implicit och explicita argument?
-* Som konkret exempel – säg att vi har en specialiserad algoritm som effektivt kan avgöra om en Triangle överlappar med en annan Triangle. Hur kan vi se till att denna algoritm används, även om de statiska typerna, för både implicit och explicit argument, är Polygon?
+Java implementerar så kallad single dispatch för metoder – dvs att valet av konkret metod-implementation vid runtime 
+baseras enbart på det implicita argumentet. Hur kan vi i Java åstadkomma double eller multiple dispatch, 
+alltså att valet av metod baseras på både implicit och explicita argument?
+* Som konkret exempel – säg att vi har en specialiserad algoritm som effektivt kan avgöra om en Triangle 
+överlappar med en annan Triangle. Hur kan vi se till att denna algoritm används, även om de statiska typerna, 
+för både implicit och explicit argument, är Polygon?
 * Googla gärna – men försök klura ut en lösning själva först!

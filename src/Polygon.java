@@ -27,7 +27,6 @@ public abstract class Polygon extends JComponent{
     public void overlaps(Polygon other){
         overlapsHelper("Polygon", this.toString(), other.toString());
     }
-
     static void overlapsHelper(String className, String thisType, String otherType){
         System.out.println("" + className + ".overlaps: " + thisType + " vs " + otherType);
     }

@@ -1,12 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
+import java.util.List;
 
 public class DrawPolygons extends JComponent{
-    private ArrayList<Polygon> polygons;
+    private Collection<Polygon> polygons;
 
     public DrawPolygons(){
-        polygons = new ArrayList<>(10);
+        polygons = new ArrayList<Polygon>();
 
         polygons.add(new Square(100,100));
         polygons.add(new Triangle(150,150));

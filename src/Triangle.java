@@ -17,6 +17,15 @@ public class Triangle extends Polygon {
     }
 
     @Override
+    public void overlaps(Polygon other) {
+        overlapsHelper("Triangle", this.toString(), other.toString());
+    }
+
+    public void overlaps(Triangle other) {
+        overlapsHelper("Triangle2", this.toString(), other.toString());
+    }
+
+    @Override
     public String toString() {
         return "Triangle{}";
     }
