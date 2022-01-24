@@ -6,10 +6,14 @@ Paketet utgår ifrån slutresultatet från förra veckan, med polygoner extraher
 
 ## Uppgifter
 
-1) Skapa en ny applikationsklass TestOverlaps, som i en main-metod skapar några olika polygoner av olika slag och jämför med varandra med overlaps. Stämmer utskrifterna med vad ni förväntar dig? Kan ni förklara vad som händer i termer av statisk och dynamisk typ? Tänk och förutsäg först, kör sen!
-2) Lägg till (mha overloading) specialiserade metoder av overlaps – e.g. overlaps(Triangle t):void i Triangle, och motsvarande i övriga subclasses. Låt dessa skriva ut liknande information som den i superklassen, så ni kan se vilken metod som anropas. Testa igen att jämföra olika polygoner. Stämmer det fortfarande med vad ni förväntar er?
-3) Skapa ytterligare en polygon (av någon specifik dynamisk typ), men låt denna hållas av en variabel av statisk typ Polygon. Testa att jämföra även denna, med sig själv och med övriga polygoner med mer specifik statisk typ. Testa den både som implicit och explicit argument i olika anrop. Kan ni förutsäga vilka utskrifter ni kommer få?
-4) Gör en override av metoden overlaps(Polygon p):boolean i alla subclasses, med en särskiljande utskrift. Kör testerna igen. Kan ni förutsäga vilka utskrifter ni kommer få?
+1. Metoden OverlapTests.main skapar i nuläget tre olika polygoner. Jämför dessa med varandra genom anrop till metoden Polygon.overlaps. Stämmer utskrifterna med vad ni förväntar dig? Kan ni förklara vad som händer i termer av statisk och dynamisk typ?
+
+2. Gör override på metoden overlaps(Polygon p):void i alla tre subklasser, med en särskiljande utskrift. Använd overlapsHelper för att slippa duplicera kod. Kör testerna igen. Kan ni förutsäga vilka utskrifter ni kommer få?
+Tips: Testa gärna kort-kommandot Ctrl+O i IntelliJ, för att enkelt generera skelett-kod för era overrides.
+
+3. Skapa ytterligare en polygon (av någon valfri dynamisk typ), men låt denna hållas av en variabel med statisk typ Polygon. Testa att jämföra även denna, med sig själv och med övriga polygoner med mer specifik statisk typ. Testa den både som implicit argument (det objekt som overlaps anropas på), och som explicit argument. Kan ni förutsäga vilka utskrifter ni kommer få? Testar ni alla relevanta kombinationer av typer?
+
+4. Lägg nu till en overloaded (överlagrad) metod overlaps(Triangle t):void i Triangle, och motsvarande specialiseringar i övriga subklasser. Låt även dessa skriva ut information så ni kan se vilken metod som anropas. Kör era tester igen för att jämföra olika polygoner. Stämmer det fortfarande med vad ni förväntar er?
 
 ## För mer utmaning
 
