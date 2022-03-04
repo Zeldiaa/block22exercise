@@ -29,6 +29,7 @@ public class TestOverlaps {
         //   You can comment out the lines from above (10-13) using the same command.
         //   Then run the program again, and see if your predictions were correct.
         //   Can you explain these outputs in terms of static and dynamic types?
+        /*
         Polygon polyTriangle = new Triangle(1,4);
 
         square.overlaps(polyTriangle);          // ___.overlaps:___{} vs ___{}
@@ -36,6 +37,7 @@ public class TestOverlaps {
         polyTriangle.overlaps(triangle);        // ___.overlaps:___{} vs ___{}
         polyTriangle.overlaps(polyTriangle);    // ___.overlaps:___{} vs ___{}
         triangle.overlaps(triangle);            // ___.overlaps:___{} vs ___{}
+        */
 
         // TODO: Step 4b: After you have uncommented the overloaded declaration and
         //   implementation of the method 'overlaps' in the Triangle subclass,
