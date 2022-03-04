@@ -13,6 +13,12 @@ public class Square extends Polygon {
         g.drawRect(centerPoint.x - 10, centerPoint.y - 10, 20, 20);
     }
 
+    // TODO: Step 2a: Uncomment this method declaration.
+    // @Override
+    // public void overlaps(Polygon other) {
+    //     overlapsHelper("Square", this.toString(), other.toString());
+    // }
+
     @Override
     public String toString() {
         return "Square{}";
