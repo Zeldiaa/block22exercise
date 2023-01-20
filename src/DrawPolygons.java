@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.List;
 
 public class DrawPolygons extends JComponent{
-    private Collection<Polygon> polygons;
+    private final ArrayList<Polygon> polygons;
 
     public DrawPolygons(){
         polygons = new ArrayList<Polygon>();
