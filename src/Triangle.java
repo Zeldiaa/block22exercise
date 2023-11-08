@@ -14,12 +14,12 @@ public class Triangle extends Polygon {
     }
 
     // TODO: Step 2a: Uncomment this overridden method declaration.
-    /*
+
      @Override
      public void overlaps(Polygon other) {
          overlapsHelper("Triangle", this.toString(), other.toString());
      }
-    */
+
 
     // TODO: Step 4a: Uncomment this overloaded method declaration.
     /*

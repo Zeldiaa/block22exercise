@@ -14,10 +14,10 @@ public class Square extends Polygon {
     }
 
     // TODO: Step 2a: Uncomment this method declaration.
-    // @Override
-    // public void overlaps(Polygon other) {
-    //     overlapsHelper("Square", this.toString(), other.toString());
-    // }
+    @Override
+    public void overlaps(Polygon other) {
+        overlapsHelper("Square", this.toString(), other.toString());
+    }
 
     @Override
     public String toString() {
