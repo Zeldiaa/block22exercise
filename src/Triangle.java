@@ -22,11 +22,11 @@ public class Triangle extends Polygon {
 
 
     // TODO: Step 4a: Uncomment this overloaded method declaration.
-    /*
+
      public void overlaps(Triangle other) {
          overlapsHelper("Triangle2", this.toString(), other.toString());
      }
-    */
+
 
     @Override
     public void paint(Graphics g){
